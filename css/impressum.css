@@ -1,0 +1,20 @@
+#header .logo {
+	display: none;
+}
+
+#header .services {
+	display: none;
+}
+
+
+@media screen and (max-width: 1200px){
+
+	#header {
+		padding-top: 4em;
+	}
+	
+	.company {
+		margin-bottom: 2em;
+	}
+	
+}

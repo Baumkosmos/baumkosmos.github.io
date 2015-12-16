@@ -2,22 +2,41 @@
 layout: default
 ---
 
-<div class="home">
+<!-- <div id="kontakt" class="container"> -->
+<!-- 	<div class="row"> -->
+<!-- 		<div class="col-md-10 col-md-offset-1"> -->
+<!-- 			<img  -->
+<!-- 				class="img-responsive img-circle pull-right"  -->
+<!-- 				src="res/img/mathias-am-seil_rund.png"  -->
+<!-- 				alt="Profile Image"> -->
+<!-- 			<div> -->
+<!-- 				<h1 >Kontakt</h1> -->
+<!-- 				<p class="lead">Arboristik Baumkosmos<br/>Mathias Oppolzer<br/>Schulenburger Landstr. 130c<br/>30165 Hannover</p> -->
+<!-- 				<p>Tel.: 0176 - 247 482 53</p> -->
+<!-- 				<p>E-Mail: <a href="mailto:arboristik@baumkosmos.de">arboristik@baumkosmos.de</a></p> -->
+<!-- 			</div> -->
+<!-- 		</div> -->
+<!-- 	</div> -->
+<!-- </div> -->
 
-  <h1 class="page-heading">Posts</h1>
+<div id="kontakt" class="container">
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+	<div class="row">
+		<div class="col-md-12"><p class="pull-right"><a href="#">Back to top</a></p></div>
+	</div>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+	<div class="row">
+		<div class="col-md-7 col-md-offset-1">
+			<h1 >Kontakt</h1>
+			<p class="lead">Arboristik Baumkosmos<br/>Mathias Oppolzer<br/>Schulenburger Landstr. 130c<br/>30165 Hannover</p>
+			<p>Tel.: 0176 - 247 482 53</p>
+			<p>E-Mail: <a href="mailto:arboristik@baumkosmos.de">arboristik@baumkosmos.de</a></p>
+		</div>
+		<div class="col-md-3">
+			<img 
+				class="img-responsive img-circle pull-right" 
+				src="img/mathias-am-seil_rund.png" 
+				alt="Profile Image">
+		</div>
+	</div>
 </div>

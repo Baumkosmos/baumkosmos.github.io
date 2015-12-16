@@ -1,0 +1,33 @@
+@font-face {
+	font-family: HoboStd;
+	src: url(HoboStd.otf);
+}
+
+
+body {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	color: #5a5a5a;
+}
+
+.font {
+	font-family: HoboStd;
+}
+
+.font-green {
+	font-family: HoboStd;
+	color: #86b625;
+}
+
+.font-orange {
+	font-family: HoboStd;
+	color: #ee7232;
+}
+
+.green {
+	color: #86b625;
+}
+
+.orange {
+	color: #ee7232;
+}
