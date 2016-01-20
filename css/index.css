@@ -24,10 +24,7 @@
 	}
 }
 
-.services a {
-	pointer-events: none;
-	cursor: default;
-}
+
 
 .services ul {
 	display: inline; 
