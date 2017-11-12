@@ -1,0 +1,43 @@
+#header {
+	padding-top: 8em;
+}
+
+.logo {
+	width: 80%;
+	max-width: 21em;
+}
+
+.services {
+	max-width: 65em;
+	padding: 2em;
+	margin: auto;
+}
+
+.services li {
+	display: inline; 
+	list-style: none; 
+	padding-left:0;
+	
+}
+
+@media screen and (min-width: 1200px){
+	#header {
+		background-image: url(../img/baum-2_darkest.jpg);
+		background-size: 100% Auto;
+		background-repeat: no-repeat;
+	}
+}
+
+
+@media screen and (max-width: 1200px){
+	
+	#header {
+		padding-top: 7em;
+		padding-bottom: 0em;
+	}
+	
+	.company {
+		margin-bottom: 5em;
+	}
+}
+

@@ -1,0 +1,24 @@
+.h1 {
+	display: block;
+	font-size: 3em;
+	line-height: 1.3em;
+	padding-top: 0.3em;
+	padding-bottom: 0.1em;
+}
+
+.content.wrapper {
+	background-color: #fff;
+	padding-top: 2em;
+	padding-bottom: 4em;
+}
+
+.content.container  {
+}
+
+#footer {
+	background-color: #202020; 
+	padding-top: 20px; 
+	padding-bottom: 10px;"
+}
+
+

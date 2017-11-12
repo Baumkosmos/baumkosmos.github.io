@@ -1,52 +1,3 @@
-
-
-.h1 {
-	display: block;
-	font-size: 3em;
-	line-height: 1.3em;
-	padding-top:0.3em;
-	padding-bottom:0.1em;
-}
-
-.logo {
-	width: 21em;
-}
-
-
-.services {
-	width: 24em;
-	margin: auto;
-}
-
-@media screen and (max-width: 1200px) {
-	.services {
-		margin-bottom: 3em;
-	}
-}
-
-
-
-.services ul {
-	display: inline; 
-	list-style: none; 
-	padding-left:0;
-	
-}
-
-@media screen and (min-width: 1200px){
-	#header {
-		background-image: url(../img/baum-2_dark.jpg);
-		background-size: 100% Auto;
-		background-repeat: no-repeat;
-	}
-}
-
-#header {
-	background-color: #202020; 
-	padding-top: 130px;
-	padding-bottom: 50px;
-}
-
 #kontakt {
 	padding-top: 1em; 
 	padding-bottom: 3em;
@@ -58,16 +9,7 @@
 }
 
 @media screen and (max-width: 1200px){
-	
-	#header {
-		padding-top: 7em;
-		padding-bottom: 0em;
-	}
-	
-	.company {
-		margin-bottom: 5em;
-	}
-	
+		
 	#kontakt {
 		text-align: center;
 	}
@@ -77,14 +19,6 @@
 		margin: auto;
 		margin-top: 3em;
 	}
-	
-
-}
-
-#footer {
-	background-color: #202020; 
-	padding-top: 20px; 
-	padding-bottom: 10px;"
 }
 
 

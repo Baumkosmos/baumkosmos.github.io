@@ -4,10 +4,12 @@
 }
 
 
-body {
+html, body {
 	margin-bottom: 0px;
 	padding-bottom: 0px;
 	color: #5a5a5a;
+	background-color: #202020;
+	height:100%
 }
 
 .font {
