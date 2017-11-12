@@ -1,0 +1,29 @@
+---
+title: Blog
+layout: default
+smallheader: true
+---
+
+<div id="blog" class="content container">
+	<div class="row">
+	  
+		<div class="col-md-7 col-md-offset-1">
+		
+			<h1>Blog</h1>
+		
+			<ul class="post-list">
+			{% for post in site.posts %}
+				<li>
+					<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+			
+					<h2>
+						<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+					</h2>
+					{{ post.excerpt }}
+					<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">Read more ...</a>
+				</li>
+			{% endfor %}
+			</ul>
+		</div>
+	</div>
+</div>
