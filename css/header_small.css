@@ -12,7 +12,6 @@
 }
 
 .company.baumkosmos span {
-	margin-left: -0.2em;
 }
 
 @media screen and (max-width: 1200px){
@@ -28,7 +27,6 @@
   right: 0;
   left: 0;
   z-index: 20;
-  margin-top: 100px;
 }
 
 /* RESPONSIVE CSS
