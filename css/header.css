@@ -8,24 +8,29 @@
 }
 
 .services {
-	max-width: 65em;
+	max-width: 55em;
 	padding: 2em;
 	margin: auto;
+	color: #aaaaaa;
+	margin-bottom: 1em;
+}
+
+
+.services ul {
+	padding: .5em;
 }
 
 .services li {
 	display: inline; 
 	list-style: none; 
-	padding-left:0;
+	padding:0;
 	
 }
 
-@media screen and (min-width: 1200px){
-	#header {
-		background-image: url(../img/baum-2_darkest.jpg);
-		background-size: 100% Auto;
-		background-repeat: no-repeat;
-	}
+#header {
+	background-image: url(../img/baum-2_dark.jpg);
+	background-size: 100% Auto;
+	background-repeat: no-repeat;
 }
 
 
