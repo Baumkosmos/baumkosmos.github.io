@@ -5,6 +5,4 @@ smallheader: true
 ---
 Mein erster  Blogpost.
 
-![alt text][logo]
-
-[logo]: /img_posts/mathias-am-seil_rund.png "That's me!" {: height="36px" width="36px"}
+![That's me!](/img_posts/mathias-am-seil_rund.png){: height="36px" width="36px"}
